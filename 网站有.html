@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>游玩通企业</title>
+		<style>
+    *{padding: 0;margin: 0;width: 100%;}  /* 先重置一下html，消除HTML标签默认的内外边距 */
+    .wrap{width: 800px;margin: 0 auto;}    /* 对导航的内容设置一个主体为800px的宽并使其居中 */
+    .clear{clear: both;}  /* 清除浮动 */
+    a{text-decoration: none;}   /* 去掉默认a标签的下划线 */
+    ul,li{list-style: none;}
+    nav .level>li{float: left;width: 16.66%;text-align: center;background: lightgray;padding: 10px 0;font-size: 16px;}
+    nav .level>li a{color: black;}
+    nav .level>li:hover{background:white;}   /* 设置鼠标滑过后的样式 */
+ .level{}
+    nav .two{display: none;}  /* 先使二级菜单的内容隐藏 */
+    nav .level>li:hover .two{display: block;}   /* 鼠标滑过一级菜单后的显示二级菜单 */
+    nav .level>li{transition: .4s;}  /* 颜色添加过渡时间     未处理兼容性*/
+ nav .two li{padding: 5px 0;transition: .4s;cursor: pointer;}
+ nav .two li:hover{background:bisque;}
+ .level{position: absolute;width:100%;top: 2px;}
+.ql{position: absolute;top:50px}
+.ql img{
+	width:100%;
+   height:400px;
+	}
+.ap{position: absolute;top:-45px;left: 220px;}
+.ap p{font-size: 40px;color: cornflowerblue;}
+
+
+.bp{position: absolute;top:-45px;left: 110px;}
+.bp p{font-size: 40px;}
+.bp img{width: 45px;height:45px ;}
+.ml {position: absolute;top:15px;left: 400px;height: 10px;}
+.ml p{font-size: 20px;}
+.box{height:1500px;background-color:aliceblue}
+.ba{border: 1px dashed black;
+margin: 15px;padding: 0px;margin-right: 100px;
+float: right;height: 300px;width: 620px;}
+.ba h3{float: left;
+height: 20px;
+width: 610px;
+color: #F0F8FF;
+padding: 6px 3px 3px 10px;
+background-color: #98FB98
+;font-size: 16px;}
+.ba p{line-height: 1.5em;text-indent: 2em;margin: 
+35px 5px 5px 5px;}
+.ss{position: absolute;top:1000px}
+.ba img{height:220px ;width:627px ;}
+
+
+     *{margin: 0;
+			padding: 0;}
+		.al{position:fixed;top:180px;left: 35px;}
+		.al a{
+			text-decoration: none;
+			}
+		.al>ul>li{
+			list-style: none;font-size:25px; border: 1px solid palegreen;width: 110px;
+			}
+		.al>ul>li:hover{
+				list-style: none;
+				border: 1px solid orange;background-color:#FF0000 ;
+			}		
+		.bl{
+			display: none;
+			position: absolute;left:115px;float:left
+			}
+		.al>ul>li:hover .bl{
+			list-style: none; display: block
+		}       
+		.al>ul>li:hover .bl{list-style:none ;
+			border: 0px solid red;
+			} 
+	.hb{position:absolute;top:1400px;text-align:center;width:100% ;}
+			.hb{background-color: thistle;width:100%;height: 130px;}	
+	
+
+	.cll{margin-left: auto;
+				margin-right: auto;position:relative ;top:12px;
+				width: 17%;height: 180px;float: left;margin-left: 10%;}
+	.cll img{width: 100%;height: 220px;}
+	.cll a{text-decoration: none;}
+	.cll p{text-align: center;}
+	.bll{margin-left: auto;
+				margin-right: auto;position:relative ;top:120px;
+				width: 28%;height: 180px;float: left;margin-left: 4%;}
+	.bll img{width: 100%;height: 220px;}
+	.bll a{text-decoration: none;}
+	.bll p{text-align: center;}
+	
+	
+		</style>
+	</head>
+	<body>
+		<div class="box">
+		<div class="ql" >
+			<img src="QQ图片2019090412223.jpg">
+		   
+		   <nav>
+        <ul class="level">
+            <li><a href="HH.html"  target="_blank">网站首页</a></li>
+            <li>
+                <a href="">企业概念
+                <ul class="two">
+                    <li> <a href="index.html" target="_blank">公司简介</li></a>
+                    <li>服务内容</li>
+                    <li>服务宗旨</li>
+                </ul>
+            </li>
+            <li>
+                <a href="">新闻中心</a>
+                <ul class="two">
+                    <li>旅游新闻</li>
+                    <li>景区新闻</li>
+                    <li>最新消息</li>
+                </ul>
+            </li>
+            <li>
+                <a href="">企业动态</a>
+                <ul class="two">
+                    <li>最近活动</li>
+                    <li>企业动态</li>
+                    <li>企业走向</li>
+                </ul>
+            </li>
+            <li>
+                <a href="">合作加盟</a>
+                <ul class="two">
+                    <li>店铺入驻10</li>
+                    <li>景区加入11</li>
+                    <li>企业招聘</li>
+                </ul>
+            </li>
+            <li>
+                <a href="">客户服务</a>
+                <ul class="two">
+                    <li>服务咨询</li>
+                    <li>游玩预约</li>
+                    <li>畅游无限</li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div class="ap"><p><b>游&nbsp玩&nbsp通&nbsp企&nbsp业  </b></p></div>
+   
+   <div class="bp"> <img src="img/Screenshot_20190904_114054.jpg" </div>
+    <div class="ml"> <marquee direction="left" behavior="scroll"bgcolor=white
+    	"><p>欢迎进入游玩通网页!&nbsp&nbsp&nbsp&nbsp&nbsp我们企业可以为大家提供游玩一条龙服务，
+    		出去游玩旅行，吃住行等综合性服务，给您最愉快的旅行！服务电话：<b>7458-319882</b><p> </marquee></div>
+    	</div>
+        <a href="https://baike.baidu.com/item/%E7%BB%A5%E9%98%B3%E5%8E%BF/2862784?fr=aladdinl"target="_blank">
+  	<div class="ba">	   
+    <h3>热门游玩地：</h3>
+      <img src="23.jpg"
+  	<p>诗乡绥阳，贵州北部高原一颗璀璨的红星照的你更加美丽动人,
+    		有名贵亚洲的双河溶洞，十二拐背后，后水湖，红果树
+    	瀑布等，欢迎你来诗乡绥阳。</p></a></div>
+    
+    <a href="index.html" target="_blank">
+    	<div class="ba">
+    <h3>简介</h3>
+    	<p>游玩一条龙服务：<br>出行约车，约人(交友)，游玩地点，
+    	导航地点详情细节(特色小吃店，旅馆，公测等)（细节用视频，以及客户的评论作为软件的一大亮点，
+    	可以与微博上的喜好吃美食的人相合作，即 邀请其来吃， 以吃的东西来对抵邀请其来的出场费，这样可同时满足该博主对事物的欲望，同时人们在使用软件时，观看此视频可增强小吃的知名度，带来大量利润），网上订票定房，当地特色小吃(和店家合作，旅馆推荐(就近原则))，以及游玩的顺序，去的季节，方式(如骑行)推荐，(定位解决安全性，如在关机前，或者没信号前一秒紧急定位，发送到紧急联系人，语音报警)。
+可以，再加入一种特色，农家几日游，有些农家欢迎游客如，也有人愿意去体验，我们作为一个中介吧
+所以从中收取商家，旅店，特色店的费用，以及流量费等收益。
+
+    	</p></a></div>
+   
+    
+<div class="cll">
+			<a href="定制商城.html"><img src="text1/旅游1.jpg" target="_blank"></a><a href=""><p><b>全程导航<br>语音服务</b></p></a>
+		</div>
+		<div class="cll">
+			<a href="定制商城.html"><img src="text1/旅游3.jpg"  target="_blank"></a><a href=""><p><b>网上预订<br>吃住约行</b></p></a>
+		</div><div class="cll">
+			<a href="定制商城.html"><img src="text1/旅游2.jpg"   target="_blank"></a><a href=""><p><b>农家体验<br>附近服务</b></p></a>
+		</div><br>
+		
+<div class="bll">
+			<a href="定制商城.html"><img src="23.jpg" target="_blank"></a><a href=""><p><b>绥阳诗乡门</b></p></a>
+		</div>
+		<div class="bll">
+			<a href="定制商城.html"><img src="19591ee9303a8c8d1bb3b494b2bf3981.jpg"  target="_blank"></a><a href=""><p><b>绥阳红果树</b></p></a>
+		</div><div class="bll">
+			<a href="定制商城.html"><img src="img/1536011412-14.jpg"   target="_blank"></a><a href=""><p><b>雪山颠之屋</b></p></a>
+		</div>
+
+   
+   
+   
+   
+   
+   
+   
+   
+   <div class="al">
+			<ul>
+			<li><a href=""target="_blank">公司简介</a><ul class="bl">
+				
+			<li><!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		
+			.all{width: 30%;height: 280px;background-color: greenyellow;float: left;margin-left: 0%;}
+			.all img{width: 100%;height: 280px;}
+			.all a{text-decoration: none;}
+			.hl{position: fixed; top: 180px;left:145px ;}
+		</style>
+	</head>
+	<body>
+		<div class="hl">
+			
+		<div class="all"><a href="企业网站.html" target="_blank" >
+			<img src="鼓励.jpg"></a>
+		</div>
+		<div class="all"><a href="定制详情.html"  target="_blank" >
+			<img src="Screenshot_20190904_110637.jpg"></a>
+		</div>
+		
+		<div class="all"><a href="定制详情.html"  target="_blank" >
+			<img src="mmexport1534853084937.jpg"></a>
+		
+		</div></div>	
+		</body>
+</html>
+</li></li>
+			</ul></li>
+			
+			<li><a href="轮播.html" target="_blank" >旅游景点</a><ul class="bl">
+			
+			<li>
+	<body>
+		<div class="hl">
+			
+		<div class="all"><a href="定制详情.html"  target="_blank">
+			<img src="1113663178_14187131782651n.jpg"></a>
+		</div>
+		<div class="all"><a href="定制详情.html"  target="_blank">
+			<img src="c1ac62bf59da641830bcc61495ea1c0a.jpg"></a>
+		</div>
+		
+		<div class="all"><a href="定制详情.html"  target="_blank">
+			<img src="U309P904DT20150326102445.jpg"></a>
+	
+		</div></div>
+		
+		</body>
+</html>
+
+</ul></li>	   
+		   <li><a href="">热门推荐</a>
+			<ul class="bl">
+			<li>	
+	<body>
+		<div class="hl">
+			
+		<div class="all"><a href="">
+			<img src="19591ee9303a8c8d1bb3b494b2bf3981.jpg"></a>
+		</div>
+		<div class="all"><a href="">
+			<img src="t01871b6e6f98210e75.jpg"></a>
+		</div>
+		
+		<div class="all"><a href="">
+			<img src="7d1d4693dfe64b779d40708bcbdc505b.jpeg"></a>
+		
+	
+		</div></div>
+		
+		</body>
+
+</html>
+
+</ul></li>
+			
+	  <li><a href="https://image.baidu.com/search/index?tn=baiduimage&ipn
+	  	=r&ct=201326592&cl=2&lm=-1&st=-1&fm=result&fr=&sf=1&fmq=1567677320040
+	  	_R&pv=&ic=&nc=1&z=&hd=&latest=&copyright=&se=1&showtab=0&fb=0&width
+	  	=&height=&face=0&istype=2&ie=utf-8&sid=&word=%E9%85%92%E5%BA%97%E5%9B%BE"target="_blank">住行专区</a>
+			<ul class="bl">
+			<li>	
+	<body>
+		<div class="hl">
+			
+		<div class="all"><a href="">
+			<img src="0d0688e7a6db48a5b2a93e34af58eb63.jpg"></a>
+		</div>
+		<div class="all"><a href="">
+			<img src="103818500658455.jpg"></a>
+		</div>
+		
+		<div class="all"><a href="">
+			<img src="01759e59080c39a80121455087b508.jpg@1280w_1l_2o_10.jpg"></a>
+		
+	
+		</div></div>
+	
+		</div>
+		</body>
+
+</html>
+
+</ul></li>		
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="hb">
+		<p><br><a href= "首页.html"  target="_blank">游玩首页</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href="定制商城.html"  target="_blank">企业动态</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href=""target="_blank">天猫网</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href="https://www.tmall.com/?ali_trackid=2:mm_26632325_6860397_24008452:1545637538_256_1239713331"target="_blank">淘宝网</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href=""target="_blank">京东网</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href="商品分类.html"  target="_blank">农家体验</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href="定制商城.html"  target="_blank">旅社预订</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href=""target="_blank">游玩分享</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href=""target="_blank">乐淘</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href=""target="_blank">万链网</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href="https://www.duba.com/?f=tkbr_notray&hid=99_39_168_1_&db_99_39&ty4=1&tryno=1335&wd=br_ie"target="_blank">百度首页</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+				<a href=""target="_blank">卖家中心</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+			<a href=""target="_blank">友盟链接</a></span><br>
+			<span>
+		    <a href="定制详情.html" target="_blank">服装网</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+		    <a href=""target="_blank">钉钉</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+		    <a href=""target="_blank">支付宝</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+		    <a href=""target="_blank">优酷</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+		    <a href=""target="_blank">土豆</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+		    <a href="定制商城.html"  target="_blank">定制厂家</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+		    <a href=""target="_blank">客户公司</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+		    <a href="定制商城.html" target="_blank">野猫导购</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b><span>
+		    <a href=""target="_blank">网商银行</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span><a href="公司简介.html">公司介绍</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span><a href="野猫简介.html">关于野猫</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span><a href="">违规举报</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span><a href="">联系客服</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span><a href="">开放平台</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span><a href="">诚征英才</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span><a href="">联系我们</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span><a href="">网站地图</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span><a href="">知识产权</a></span><br>
+		<em>© 2017成立-现在 XIAO YE MAO . com 版权所有</em>
+		</p>
+		
+		<p><span>
+			<a href="">互联网旅游服务资格证书（黔）-经营性-2018-0x10</a></span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span>统一社会信用代码：号【2017】91520900M6GQDG606</span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+			<span>注册号：520900000170623</span><b>|</b>
+			</p>
+		<b>|</b>
+					<span>企业名称<a href="https://xin.baidu.com/detail/compinfo?pid=bOFZtR1rbCBYL9doV7UcbGTEnKDSDCkA6g9Z">
+						：贵州游玩通企业有限公司 </a>       </span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+					<span>地址：贵州省贵阳市贵安新区数字经济产业园x号楼x层1001号    </span><b>&nbsp&nbsp|&nbsp&nbsp</b>
+					<span>   联系电话：<a href=""> 1 8 2 9 8 0 3 1 7 2 4 </a><b>|</b><br></span></p>
+	</div>
+			
+		
+</div></div>
+		</body>	
+	</body>
+</html>
+</head>
+	</body>
+</html>
+
+
+
+
+
+
+
